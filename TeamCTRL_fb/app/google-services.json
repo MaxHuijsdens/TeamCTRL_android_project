@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "735654943207",
+    "firebase_url": "https://teamctrl-880e4.firebaseio.com",
+    "project_id": "teamctrl-880e4",
+    "storage_bucket": "teamctrl-880e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735654943207:android:c0137ddf780ab197",
+        "android_client_info": {
+          "package_name": "com.example.max.teamctrl_fb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735654943207-34f2ccdf1hrkt4r92437o4siiu0rr195.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.max.teamctrl_fb",
+            "certificate_hash": "65E13673941D93F36A7914950DFC9014EF7C823D"
+          }
+        },
+        {
+          "client_id": "735654943207-of6vtavdlsqu88n6rnn0h9pruifr6qmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ-gENoHMCKs4OojrRk89MsaBOHQBP5Ek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735654943207-of6vtavdlsqu88n6rnn0h9pruifr6qmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

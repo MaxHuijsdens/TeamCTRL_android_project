@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp"
+    android:background="@android:color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_player_profilepicture"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_player_name"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="5sp"
+                />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_player_prefposition"
+                android:textSize="15sp"
+                android:textColor="@color/colorSecondary" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="4"
+        android:padding="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/colorLight">
+
+        <TextView
+            android:text="@string/total_scored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorLight"
+            android:padding="5sp"/>
+
+        <TextView
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:id="@+id/txt_total_scored"
+            android:textSize="15sp"
+            android:paddingLeft="5sp"
+            android:textColor="@color/colorSecondary"/>
+
+        <TextView
+            android:text="@string/total_injuries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorLight"
+            android:padding="5sp"/>
+
+        <TextView
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:id="@+id/txt_total_injuries"
+            android:textSize="15sp"
+            android:paddingLeft="5sp"
+            android:textColor="@color/colorSecondary"/>
+
+        <TextView
+            android:text="@string/total_faults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorLight"
+            android:padding="5sp"/>
+
+        <TextView
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:id="@+id/txt_total_faults"
+            android:textSize="15sp"
+            android:paddingLeft="5sp"
+            android:textColor="@color/colorSecondary" />
+
+        <TextView
+            android:text="@string/total_substitutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorLight"
+            android:padding="5sp"/>
+
+        <TextView
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:id="@+id/txt_total_subs"
+            android:textSize="15sp"
+            android:paddingLeft="5sp"
+            android:textColor="@color/colorSecondary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="4">
+
+        <TextView
+            android:text="Recent matches:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15sp"
+            android:textAlignment="center"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lst_matched_played"
+            android:background="@color/colorLight"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

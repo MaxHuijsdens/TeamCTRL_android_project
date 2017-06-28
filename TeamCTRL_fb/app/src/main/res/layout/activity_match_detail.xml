@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:text="@string/match_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="5sp"
+        />
+
+    <TextView
+        android:text="@string/match_opponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorLight"
+        android:padding="10sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/edit_match_opponent"
+        android:background="@color/colorLight"
+        android:padding="10sp"
+        android:textColor="@color/colorSecondary"/>
+
+    <TextView
+        android:text="@string/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorLight"
+        android:padding="10sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/edit_match_date"
+        android:background="@color/colorLight"
+        android:padding="10sp"
+        android:textColor="@color/colorSecondary"/>
+
+    <TextView
+        android:text="@string/strategy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorLight"
+        android:padding="10sp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_strategy"
+        android:background="@color/colorLight"
+        android:padding="10sp"
+        android:textColor="@color/colorSecondary"/>
+
+    <Button
+        android:text="@string/line_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="createLineUp"
+        android:id="@+id/button3"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/bgColorPrimary"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="15sp"/>
+
+    <Button
+        android:text="@string/start_match"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startMatch"
+        android:id="@+id/button4"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/bgColorPrimary"/>
+</LinearLayout>

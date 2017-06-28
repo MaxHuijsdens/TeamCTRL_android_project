@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:text="Opponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_recent_match_opponent"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="5sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:background="@android:color/white"
+        />
+
+    <TextView
+        android:text="Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_recent_match_date"
+        android:background="@android:color/white"
+        android:textColor="@color/colorSecondary"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:text="Score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_recent_match_score"
+        android:textSize="24sp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorSecondary"
+        android:textAlignment="center"/>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:id="@+id/match_events_list"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="4px"
+        android:background="@color/colorLight"
+        >
+    </ListView>
+
+</LinearLayout>

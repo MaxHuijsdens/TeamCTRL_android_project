@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="7"
+        android:background="@drawable/rugby_pitch_horizontal">
+
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_1"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="10%"
+            app:layout_marginLeftPercent="10%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_2"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="10%"
+            app:layout_marginLeftPercent="27%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_3"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="10%"
+            app:layout_marginLeftPercent="44%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/txt_pos_4"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="20%"
+            app:layout_marginLeftPercent="19%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_5"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="20%"
+            app:layout_marginLeftPercent="36%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_6"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="27%"
+            app:layout_marginLeftPercent="7%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_7"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="27%"
+            app:layout_marginLeftPercent="48%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_8"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="31%"
+            app:layout_marginLeftPercent="25%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_9"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="40%"
+            app:layout_marginLeftPercent="37%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_10"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="46%"
+            app:layout_marginLeftPercent="49%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_11"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="64%"
+            app:layout_marginLeftPercent="7%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_12"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="52%"
+            app:layout_marginLeftPercent="61%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_13"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="58%"
+            app:layout_marginLeftPercent="73%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_14"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="64%"
+            app:layout_marginLeftPercent="85%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            app:srcCompat="@drawable/ic_person_unknown"
+            android:id="@+id/img_pos_15"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="15%"
+            app:layout_marginTopPercent="67%"
+            app:layout_marginLeftPercent="44%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="Start"
+            android:id="@+id/btn_start_match"
+            android:onClick="startMatch"
+            app:layout_widthPercent="25%"
+            app:layout_heightPercent="7%"
+            app:layout_marginTopPercent="89%"
+            app:layout_marginLeftPercent="5%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:text="End"
+            android:id="@+id/btn_end_match"
+            android:onClick="showStopMatchDialog"
+            app:layout_widthPercent="25%"
+            app:layout_heightPercent="7%"
+            app:layout_marginTopPercent="89%"
+            app:layout_marginLeftPercent="70%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:id="@+id/layout_all_players">
+
+        <!-- This is where the ImageViews of all the benched players will be put -->
+
+    </LinearLayout>
+</LinearLayout>

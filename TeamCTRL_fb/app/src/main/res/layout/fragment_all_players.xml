@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/players_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="9"
+        android:background="@color/bgColorPrimary"
+        android:divider="@color/colorSecondary"
+        android:dividerHeight="4px"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        >
+    </ListView>
+    <Button
+        android:text="@string/register_new_player"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:id="@+id/btn_register_player"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/bgColorPrimary"/>
+
+</LinearLayout>

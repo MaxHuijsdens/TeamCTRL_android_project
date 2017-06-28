@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TeamCTRL</string>
+    <string name="matches_text">Matches</string>
+    <string name="match_text">Match</string>
+    <string name="player_text">Players</string>
+    <string name="dev_text">Dev</string>
+    <string name="register_new_player">Register new player</string>
+    <string name="add_new_match">Add new match</string>
+    <string name="recent_matches">Recent</string>
+    <string name="upcoming_matches">Upcoming</string>
+    <string name="event">Event</string>
+    <string name="name">Name</string>
+    <string name="preferred_position">Preferred position</string>
+    <string name="match_opponent">Opponent</string>
+    <string name="date">Date (dd/mm/yyyy)</string>
+    <string name="strategy">Strategy</string>
+    <string name="location">Location</string>
+    <string name="line_up">Line Up</string>
+    <string name="save">Save</string>
+    <string name="start_match">Start match</string>
+    <string name="total_scored">Total scored:</string>
+    <string name="total_injuries">Amount of injuries suffered:</string>
+    <string name="total_faults">Amount of faults made:</string>
+    <string name="total_substitutes">Substitute appearances:</string>
+    <string-array name="strategies">
+        <item>Strategy 1</item>
+    </string-array>
+    
+    <item type="id" name="imageview_minute_id">ImageView Minute</item>
+    <item type="id" name="imageview_minute_textview">ImageViewMinuteTextView</item>
+
+</resources>
